@@ -33,7 +33,7 @@ The dataset consists of **455 labeled images** captured throughout the full prin
 
 Chekc out the full notebook interactively in the cloud without any setup:
 
-[🧑‍💻 [Open In Colab](https://colab.research.google.com/drive/1Qbn213X5QWOoUn-A9KU0Q8FzySAzTFl8?usp=sharing)]
+🧑‍💻 [Open In Colab](https://colab.research.google.com/drive/1Qbn213X5QWOoUn-A9KU0Q8FzySAzTFl8?usp=sharing)
 
 
 ---
