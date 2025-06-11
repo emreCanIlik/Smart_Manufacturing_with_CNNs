@@ -9,7 +9,7 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify visu
 * **Overextrusion10**
 * **Overextrusion40**
 
-By analyzing layer-by-layer images from different stages of the manufacturing process, the models support **real-time, automated quality inspection**—a key enabler for smart, scalable additive manufacturing.
+By analyzing layer-by-layer images from different stages of the manufacturing process, the models support **real-time, automated quality inspection** a key enabler for smart, scalable additive manufacturing.
 
 ---
 
@@ -57,10 +57,3 @@ Below is a training summary illustrating performance across the tested CNN archi
 ![Training Results](https://github.com/user-attachments/assets/a34aa4bb-6714-4741-8d5e-a3ead09e5ad6)
 
 ---
-
-Let me know if you'd like to add performance metrics in table form, a confusion matrix, or TensorBoard logs in the README.
-
-
-
-
-
