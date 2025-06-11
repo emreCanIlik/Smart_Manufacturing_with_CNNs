@@ -1,4 +1,4 @@
-# Smart Manufacutring with Convolutional Neural Networks
+# Smart Manufacturing with Convolutional Neural Networks
 The dataset comprises 455 labeled images grouped into the categories: Normal, Bubbles, Overextrusion, Overextrusion10, and Overextrusion40. These images span the entire manufacturing process—from initial stages to the final part assembly—and are intended for use in computer vision applications. Each category name reflects a typical extrusion-related defect.
 
 Filename examples:
