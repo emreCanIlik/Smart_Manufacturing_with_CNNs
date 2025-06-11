@@ -1,39 +1,58 @@
-# Smart Manufacturing with Convolutional Neural Networks
-The dataset comprises 455 labeled images grouped into the categories: Normal, Bubbles, Overextrusion, Overextrusion10, and Overextrusion40. These images span the entire manufacturing process—from initial stages to the final part assembly—and are intended for use in computer vision applications. Each category name reflects a typical extrusion-related defect.
+# 🏭 Smart Manufacturing with Convolutional Neural Networks
 
-Filename examples:
+**Industry 4.0** represents a pivotal shift toward intelligent, automated production systems. In this context, quality assurance becomes increasingly data-driven.
+This project leverages **Convolutional Neural Networks (CNNs)** to classify visual defects in 3D-printed parts across five categories:
 
-    Normal_1.png: Final stage image from the “Normal” category
-    Normal_88.png: Early-stage image of a normal process
-    Overextrusion_2.png: Late-stage image showing overextrusion
-    Overextrusion40_80.png: Early-stage image from the “Overextrusion40” set
+* **Normal**
+* **Bubbles**
+* **Overextrusion**
+* **Overextrusion10**
+* **Overextrusion40**
 
+By analyzing layer-by-layer images from different stages of the manufacturing process, the models support **real-time, automated quality inspection**—a key enabler for smart, scalable additive manufacturing.
 
-![image](https://github.com/user-attachments/assets/9dc509d6-e590-4c1a-bef3-f04631f26efe)
+---
 
-Industry 4.0 marks a shift toward intelligent manufacturing, where real-time monitoring and automation are key. This project focuses on classifying quality defects in 3D-printed parts accross five classes, namely normal, overextrusion, overextrusion10, overextrusion40, bubbles using Convolutional Neural Networks (CNNs).
-By analyzing images of printed layers, the model detects and categorizes defects, enabling faster and more reliable quality control. This approach supports the development of smarter, automated systems in additive manufacturing.
+### 🖼️ Dataset Overview
 
-Multiple Convolutional Neural Networks were employed in the project:
+The dataset consists of **455 labeled images** captured throughout the full printing process—from early layers to final assemblies. Each filename reflects its defect class and stage in the process.
 
-    🧩 Simple CNN – A custom-built baseline architecture
+**Examples:**
 
-    ⚡ EfficientNetB0V2 – A modern, lightweight yet powerful CNN
+* `Normal_1.png`: Final-stage image of a defect-free print
+* `Normal_88.png`: Early-stage image of a defect-free print
+* `Overextrusion_2.png`: Late-stage overextrusion issue
+* `Overextrusion40_80.png`: Early-stage image from the Overextrusion40 class
 
-    🏗️ ResNet – A deep residual network for robust feature extraction
+![Dataset Sample](https://github.com/user-attachments/assets/9dc509d6-e590-4c1a-bef3-f04631f26efe)
 
-The models analyze printed layer images to classify defects, enabling faster, automated quality inspection in additive manufacturing workflows.
+📦 **Download the dataset**:
+🔗 [Full Extruded Dataset on Kaggle](https://www.kaggle.com/datasets/marcelobatalhah/full-extruded-dataset)
 
+---
 
+### 🧠 Models Used
 
+Three CNN architectures were developed and tested to evaluate their effectiveness in detecting extrusion-related defects:
 
+* 🧩 **Simple CNN** – A custom lightweight baseline
+* ⚡ **EfficientNetB0V2** – A modern, efficient CNN with strong performance
+* 🏗️ **ResNet** – A deep residual network known for robust feature extraction
 
+Each model processes image data to identify defect patterns, improving the speed and accuracy of defect detection.
 
-📈 Experimental Results
+---
 
-The models were trained and evaluated on labeled images of 3D-printed parts to classify common defects. Below is a summary visualization of the performance metrics and training behavior.
+### 📈 Experimental Results
 
-![image](https://github.com/user-attachments/assets/a34aa4bb-6714-4741-8d5e-a3ead09e5ad6)
+Below is a training summary illustrating performance across the tested CNN architectures.
+
+![Training Results](https://github.com/user-attachments/assets/a34aa4bb-6714-4741-8d5e-a3ead09e5ad6)
+
+---
+
+Let me know if you'd like to add performance metrics in table form, a confusion matrix, or TensorBoard logs in the README.
+
 
 
 
