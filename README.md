@@ -1,1 +1,1 @@
-# Smart_Manufacutring_with_DeepLearning
+# Smart Manufacutring with Convolutional Neural Networks
